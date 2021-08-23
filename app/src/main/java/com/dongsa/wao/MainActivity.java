@@ -125,6 +125,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        WebView.setWebContentsDebuggingEnabled(true);
+
         wvWeb.loadUrl(MAIN_URL);
     }
 }
